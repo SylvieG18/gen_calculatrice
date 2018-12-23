@@ -3,18 +3,14 @@ body{
     min-height: 100vh;
     display : flex;
     align-content: center;
+    background-color: black;
 }
 
 #blocPage{
    border: 2px blue solid;
-   width: 460px;
+   width: 90%;
    margin: auto;
    background-image: linear-gradient(rgb(30, 65, 180),rgb(91, 151, 241)); 
-}
-@media screen and (min-width:900px ){
-    #blocPage{
-        width: 90%;
-    }
 }
 
 h1{
@@ -28,7 +24,7 @@ form{
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 400px;
+    width: 90%;
     margin: auto;
 }
 @media screen and (min-width:900px ){
@@ -36,7 +32,6 @@ form{
         flex-direction: row;
         justify-content: space-around;
         margin-bottom: 50px;
-        width: 90%;
     }
 
 }
